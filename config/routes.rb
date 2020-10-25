@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  MarketPlaceApi::Application.routes.draw do
+    # Api definition
+    namespace :api do
+    # We are going to list our resources here
+    end
+  end
 end
