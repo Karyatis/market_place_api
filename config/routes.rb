@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  require 'api_constraints'
+require 'api_constraints'
 
 	MarketPlaceApi::Application.routes.draw do
 	  # Api definition
